@@ -8,17 +8,21 @@
       name="description"
       content="Hi, I'm Allen Elochukwu, a Frontend Developer & SEO Specialist based in Lagos, Nigeria. I build responsive and user-friendly web applications using modern technologies."
     />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
-    />
+    /> -->
 
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
       body {
-        font-family: "Poppins", sans-serif;
+        font-family: 'Plus Jakarta Sans', sans-serif;
         scroll-behavior: smooth;
       }
       .fade-in {
@@ -72,21 +76,15 @@
         <a href="#contact" class="hover:text-green-600">Contact</a>
       </nav>
 
-      <!-- Download CV Button -->
+      <!-- View Resume Button -->
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://docs.google.com/document/d/16Cp9aosVEmcCdG3gyQPbQrCb2sd-qelsDeEC2EifvSs/edit?usp=sharing"
         class="inline-flex items-center gap-1 px-5 py-2 font-medium bg-green-600 text-white rounded-lg hover:bg-green-700 transition-transform duration-200 hover:scale-105"
       >
-        Download CV
-        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-          stroke-linecap="round" stroke-linejoin="round" height="16" width="16"
-          xmlns="http://www.w3.org/2000/svg">
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-          <polyline points="7 10 12 15 17 10"></polyline>
-          <line x1="12" y1="15" x2="12" y2="3"></line>
-        </svg>
+        View Resume
+        <i class="fa fa-external-link-square" aria-hidden="true"></i>
       </a>
     </div>
   </div>
@@ -131,21 +129,17 @@
                     <section class="grid grid-cols-1 items-center gap-10 py-16 md:grid-cols-2" id="about">
                         <div class="flex flex-col gap-7">
                             <h2 class="text-4xl font-black leading-tight tracking-tighter md:text-5xl">About Me</h2>
-                            <p class="text-base text-slate-400 text-justify">A seasoned frontend developer based in Lagos, Nigeria. I focus on delivering fast, accessible, and engaging web experiences. I’m passionate about building products that improve business visibility and user engagement through clean interfaces and strong SEO.</p>
+                            <p class="text-base text-slate-400 text-justify">A seasoned Frontend Developer and SEO Specialist based in Lagos, Nigeria. I focus on delivering fast, accessible, and engaging web experiences. I’m passionate about building products that improve business visibility and user engagement through clean interfaces and strong SEO.</p>
                             <div class="flex flex-wrap gap-4">
                                 <button class="h-12 min-w-[84px] max-w-[480px] border border-green-600 cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-green-600 hover:bg-green-700 hover:text-white font-bold flex" tabindex="0">
                                   <a href="#projects">
-                                    <span class="truncate">View My Work</span>
+                                    <span class="truncate">View Projects</span>
                                     </a>
                                 </button>
                                 <button class="h-12 min-w-[84px] max-w-[480px] bg-green-600 cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-white hover:bg-green-700 font-bold shadow-lg flex" tabindex="0">
                                     <a target="_blank" rel="noopener noreferrer" class="cursor-pointer flex items-center gap-1 hover:scale-105" href="https://docs.google.com/document/d/16Cp9aosVEmcCdG3gyQPbQrCb2sd-qelsDeEC2EifvSs/edit?usp=sharing">
-                                    <span class="">Download CV</span>
-                             <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                <polyline points="7 10 12 15 17 10"></polyline>
-                                <line x1="12" y1="15" x2="12" y2="3"></line>
-                            </svg>
+                                    <span class="">View Resume</span>
+        <i class="fa fa-external-link-square" aria-hidden="true"></i>
                             </a>
                                 </button>
                                 
@@ -166,17 +160,13 @@
                         <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                             <div class="flex flex-col text-white items-center gap-3 rounded-xl border border-slate-700 bg-slate-900/50 p-4" tabindex="0">
                                 <span class="text-4xl text-green-600">
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path>
-                                    </svg>
+                                    <i class="fa fa-html5" aria-hidden="true"></i>
                                 </span>
                                 <h3 class="text-base font-bold">HTML5</h3>
                             </div>
                             <div class="flex flex-col text-white items-center gap-3 rounded-xl border border-slate-700 bg-slate-900/50 p-4" tabindex="0" >
                                 <span class="text-4xl text-green-600">
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path>
-                                    </svg>
+                                    <i class="fa fa-css3" aria-hidden="true"></i>
                                 </span>
                                 <h3 class="text-base font-bold">CSS3</h3>
                             </div>
@@ -199,20 +189,13 @@
                             
                             <div class="flex flex-col text-white items-center gap-3 rounded-xl border border-slate-700 bg-slate-900/50 p-4" tabindex="0" >
                                 <span class="text-4xl text-green-600">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github" aria-hidden="true">
-                                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
-                                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
-                                    </svg>
+                                    <i class="fa fa-github" aria-hidden="true"></i>
                                 </span>
                                 <h3 class="text-base font-bold">GitHub</h3>
                             </div>
                             <div class="flex flex-col text-white items-center gap-3 rounded-xl border border-slate-700 bg-slate-900/50 p-4" tabindex="0" >
                                 <span class="text-4xl text-green-600">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" width="1em" viewBox="-18.37905 -30.63075 159.2851 183.7845"><g fill="currentColor">
-                                    <path d="M8.708 61.26c0 20.802 12.089 38.779 29.619 47.298L13.258 39.872a52.354 52.354 0 00-4.55 21.388zm88.032-2.652c0-6.495-2.333-10.993-4.334-14.494-2.664-4.329-5.161-7.995-5.161-12.324 0-4.831 3.664-9.328 8.825-9.328.233 0 .454.029.681.042-9.35-8.566-21.807-13.796-35.489-13.796-18.36 0-34.513 9.42-43.91 23.688 1.233.037 2.395.063 3.382.063 5.497 0 14.006-.667 14.006-.667 2.833-.167 3.167 3.994.337 4.329 0 0-2.847.335-6.015.501L48.2 93.547l11.501-34.493-8.188-22.434c-2.83-.166-5.511-.501-5.511-.501-2.832-.166-2.5-4.496.332-4.329 0 0 8.679.667 13.843.667 5.496 0 14.006-.667 14.006-.667 2.835-.167 3.168 3.994.337 4.329 0 0-2.853.335-6.015.501l18.992 56.494 5.242-17.517c2.272-7.269 4.001-12.49 4.001-16.989z"/>
-                                    <path d="M62.184 65.857l-15.768 45.819a52.552 52.552 0 0014.846 2.141c6.12 0 11.989-1.058 17.452-2.979a4.615 4.615 0 01-.374-.724zm45.192-29.811c.226 1.674.354 3.471.354 5.404 0 5.333-.996 11.328-3.996 18.824l-16.053 46.413c15.624-9.111 26.133-26.038 26.133-45.426.001-9.137-2.333-17.729-6.438-25.215z"/>
-                                    <path d="M61.262 0C27.483 0 0 27.481 0 61.26c0 33.783 27.483 61.263 61.262 61.263 33.778 0 61.265-27.48 61.265-61.263C122.526 27.481 95.04 0 61.262 0zm0 119.715c-32.23 0-58.453-26.223-58.453-58.455 0-32.23 26.222-58.451 58.453-58.451 32.229 0 58.45 26.221 58.45 58.451 0 32.232-26.221 58.455-58.45 58.455z"/></g>
-                                </svg>
+                                <i class="fa fa-wordpress" aria-hidden="true"></i>
                                 </span>
                                 <h3 class="text-base font-bold" >WordPress</h3>
                             </div>
@@ -229,39 +212,39 @@
         
         <div class="grid md:grid-cols-3 gap-8">
           <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
+            <img src="images/maudifai.webp" alt="Maudifai" class="rounded-lg mb-4" />
+            <h3 class="font-semibold text-lg mb-2">Maudifai</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              A Digital Archive platform for musical works that provides reliable, research-oriented access to music across regions, genres, and historical periods.
+            </p>
+            <a href="https://dev.maudifai.kodehauz.dev/" class="text-green-600 hover:underline font-medium">View Project →</a>
+          </div>
+
+          <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
+            <img src="images/ecommerce.webp" alt="Exclusive" class="rounded-lg mb-4" />
+            <h3 class="font-semibold text-lg mb-2">Exclusive</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+            An eCommerce platform that allows you to setup account, view products, add to cart, checkout and track your orders with a seamless shopping experience.
+            </p>
+            <a href="https://ecommerce-task-silk.vercel.app/" class="text-green-600 hover:underline font-medium">View Project →</a>
+          </div>
+
+          <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
             <img src="images/taskmanager.svg" alt="TaskHive" class="rounded-lg mb-4" />
             <h3 class="font-semibold text-lg mb-2">TaskHive</h3>
             <p class="text-gray-600 dark:text-gray-300 mb-4">
-              A task management platform for teams and individuals to help streamline your workflow, enhance your team collaboration and boost productivity.
+              A Task Management platform for teams and individuals to help streamline your workflow, enhance your team collaboration and boost productivity.
             </p>
             <a href="https://taskmanager.kode.camp" class="text-green-600 hover:underline font-medium">View Project →</a>
           </div>
 
           <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
-            <img src="images/sleekshop.svg" alt="Sleek" class="rounded-lg mb-4" />
-            <h3 class="font-semibold text-lg mb-2">SleekShop</h3>
+            <img src="images/shortly.webp" alt="Shortly" class="rounded-lg mb-4" />
+            <h3 class="font-semibold text-lg mb-2">Shortly</h3>
             <p class="text-gray-600 dark:text-gray-300 mb-4">
-            An online eCommerce store that lets users browse, buy, and manage fashion items with a seamless shopping experience.
+              A URL Shortening web platform that helps users to shorten any long url/links and get detailed insights on how your links are performing.
             </p>
-            <a href="https://sleekshop-website.vercel.app" class="text-green-600 hover:underline font-medium">View Project →</a>
-          </div>
-
-          <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
-            <img src="images/sleek.svg" alt="SleekShop" class="rounded-lg mb-4" />
-            <h3 class="font-semibold text-lg mb-2">Sleek</h3>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">
-              A modern SaaS company website focused on clean UI and conversions to help you manage projects and scale your business effortlessly.
-            </p>
-            <a href="https://sleek-saas-website.vercel.app" class="text-green-600 hover:underline font-medium">View Project →</a>
-          </div>
-
-          <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
-            <img src="images/personal-website.png" alt="SleekShop" class="rounded-lg mb-4" />
-            <h3 class="font-semibold text-lg mb-2">Personal Website</h3>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">
-              A personal portfolio website designed and built on wordpress focused on full responsiveness across all screen sizes.
-            </p>
-            <a href="https://allenelochukwu.com/" class="text-green-600 hover:underline font-medium">View Project →</a>
+            <a href="https://url-shortener-eight-liart-42.vercel.app" class="text-green-600 hover:underline font-medium">View Project →</a>
           </div>
 
           <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
@@ -274,12 +257,12 @@
           </div>
 
           <div class="bg-white dark:bg-gray-700 rounded-xl shadow hover:shadow-lg transition p-5">
-            <img src="images/quiz-page.svg" alt="SleekShop" class="rounded-lg mb-4" />
-            <h3 class="font-semibold text-lg mb-2">Quiz Game</h3>
+            <img src="images/personal-website.png" alt="SleekShop" class="rounded-lg mb-4" />
+            <h3 class="font-semibold text-lg mb-2">Personal Website</h3>
             <p class="text-gray-600 dark:text-gray-300 mb-4">
-              A simple and mobile-friendly Quiz webpage to play games by answering questions for free and gain points.
+              A Personal Portfolio website designed and built on wordpress focused on full responsiveness across all screen sizes.
             </p>
-            <a href="https://elochiblog.github.io/Quiz-Game/" class="text-green-600 hover:underline font-medium">View Project →</a>
+            <a href="https://allenelochukwu.com/" class="text-green-600 hover:underline font-medium">View Project →</a>
           </div>
 
         </div>
@@ -291,7 +274,7 @@
     <div id="experience" class="mt-10 -px-10 md:px-0">
                 <div class="flex justify-center items-center flex-col gap-3 max-w-6xl mx-auto px-5">
                     <h2 class="mb-5 text-3xl text-white text-center font-bold tracking-tight">Experiences</h2>
-                        <p class="text-center text-gray-600 dark:text-gray-300 mb-7">Here is a quick summary of my most recent experiences:</p>
+                        <p class="text-center text-gray-600 dark:text-gray-300 mb-7">Here is a quick summary of my most recent work experiences:</p>
                     <div class=" flex flex-col gap-6">
                         <div class="bg-white dark:bg-gray-700 grid md:grid-cols-3 md:p-16 rounded-md shadow-lg gap-5 items-start group transition-all duration-300 transform hover:scale-105 w-auto px-3">
                             <a target="_blank" rel="noopener noreferrer" class="text-green-600 text-2xl font-bold" href="#">Freelance</a>
@@ -437,7 +420,8 @@
 
 <!-- ====== FOOTER ====== -->
     <footer class="bg-gray-100 dark:bg-gray-900 py-6 text-center text-sm text-gray-600 dark:text-gray-400">
-      © 2025 <span class="text-white hover:text-green-600 hover:underline"><a href="https://allenelochukwu.com">Allen Elochukwu.</a></span> All rights reserved.
+      &copy; <script>document.write(new Date().getFullYear());</script> 
+      <span class="text-white hover:text-green-600 hover:underline"><a href="https://allenelochukwu.com">Allen Elochukwu.</a></span> All rights reserved.
     </footer>
 
 
